@@ -25,3 +25,7 @@ variable "aws_internet_gateway_name" {
  variable "subnet_name" {
    type = string
  }
+
+variable "name_db_subnet_group" {
+  
+}

@@ -4,3 +4,6 @@ variable "vpc_id" {
 variable "cidr_block" {
   type = list(string)
 }
+variable "name" {
+  type = string
+}

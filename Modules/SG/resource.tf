@@ -1,5 +1,6 @@
 resource "aws_security_group" "terraform_sg" {
   vpc_id = var.vpc_id
+  name = var.name
   ingress {
     from_port   = 80
     to_port     = 80
@@ -22,3 +23,4 @@ resource "aws_security_group" "terraform_sg" {
     cidr_blocks = var.cidr_block  
   }
 }
+
